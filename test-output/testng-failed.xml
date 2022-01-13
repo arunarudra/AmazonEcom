@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EcomTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Amazon App Test(failed)">
+    <classes>
+      <class name="com.EcomAmazon.TestCases.TC_HomePageTest_001">
+        <methods>
+          <include name="tearDown"/>
+          <include name="logoClick"/>
+          <include name="logoTest"/>
+          <include name="clickMen"/>
+        </methods>
+      </class> <!-- com.EcomAmazon.TestCases.TC_HomePageTest_001 -->
+    </classes>
+  </test> <!-- Amazon App Test(failed) -->
+</suite> <!-- Failed suite [EcomTest] -->
